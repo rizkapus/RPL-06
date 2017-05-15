@@ -100,13 +100,13 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img class="slide-image" src="bumbu1.jpg" alt="">
+                                    <img class="slide-image" src="img/bumbuheader1.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="bumb2.jpg" alt="">
+                                    <img class="slide-image" src="img/bumbuheader2.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="bumbu3.jpg" alt="">
+                                    <img class="slide-image" src="img/bumbuheader3.jpg" alt="">
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
@@ -124,7 +124,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="jenisbumbu1.jpg" alt="">
+                            <img src="img/jenisbumbu1.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">Rp.6.000,00</h4>
                                 <h4><a href="#">Bumbu Giling</a>
@@ -146,7 +146,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="jenisbumbu2.jpg" alt="">
+                            <img src="img/jenisbumbu2.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">Rp.4.000,00</h4>
                                 <h4><a href="#">Bumbu Ulek</a>
@@ -168,7 +168,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="jenisbumbu3.jpg" alt="">
+                            <img src="img/jenisbumbu3.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">Rp.12.000,00</h4>
                                 <h4><a href="#">Bumbu Bubuk</a>
@@ -190,7 +190,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="jenisbumbu4.jpg" alt="">
+                            <img src="img/jenisbumbu4.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">Rp.3.500,00</h4>
                                 <h4><a href="#">Bumbu Sachet</a>
@@ -212,7 +212,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="jenisbumbu5.jpg" alt="">
+                            <img src="img/jenisbumbu5.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">Rp.5.000,00</h4>
                                 <h4><a href="bayam.php">Bumbu Rempah</a>
@@ -221,6 +221,28 @@
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">18 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                        <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img/jenisbumbu6.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.12.000,00</h4>
+                                <h4><a href="bayam.php">Bumbu Saji</a>
+                                </h4>
+                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">22 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>

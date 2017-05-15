@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Shop Homepage - Start Bootstrap Template</title>
+    <title>e-Pasar Tradisional Homepage</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,9 +28,9 @@
 </head>
 
 <body>
-
+    
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="background: url('header-supermarket-retail.jpg') no-repeat center center; background-color: rgba(255,255,255,0.1)" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background: url('header-supermarket-retail.jpg') no-repeat center center;" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -46,15 +46,15 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#" style="color: black; font-weight: bolder;">About</a>
+                        <a href="#" style="color: black; font-weight: bolder; background-color: white; border-radius: 10px;">About</a>
                     </li>
                     <li>
-                        <a href="#" style="color: black; font-weight: bolder;">Contact</a>
-                    </li>
+                        <a href="#" style="color: black; font-weight: bolder; ">Contact</a>
+                    </li> 
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
             <li>
-                <a href="loginutama.php" style="color: black; font-weight: bolder;">Sign In</a>
+                <a href="loginutama.php" style="color: black; font-weight: bolder; border-radius: 5px;">Sign In</a>
             </li>
             <li>
                 <a href="registerr.php" style="color: black; font-weight: bolder;">Sign Up</a>

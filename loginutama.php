@@ -26,8 +26,15 @@
     <![endif]-->
 
 </head>
+<style>
+        body{
+        background-image: url("login.jpg");
+        background-size: 100%;
+        }
+</style>
 
 <body>
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -40,29 +47,27 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">e-Pasar Tradisional</a>
+                <a class="navbar-brand" href="index.php" style="color: white; font-weight: bolder;">e-Pasar Tradisional</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#" style="color: white; font-weight: bolder;">About</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
-                    </li>
+                        <a href="#" style="color: white; font-weight: bolder;">Contact</a>
+                    </li> 
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
             <li>
-                <a href="loginutama.php">Sign In</a>
+                <a href="loginutama.php" style="color: white; font-weight: bolder;">Sign In</a>
             </li>
             <li>
-                <a href="#">Sign Up</a>
+                <a href="registerr.php" style="color: white; font-weight: bolder;">Sign Up</a>
             </li>
         </ul>
-                     
-
-                                
+                                                
         </div>
         
 
@@ -71,15 +76,46 @@
 <center>
 	<h1>PILIH LOGIN SEBAGAI</h1>
 	<div>
-	<a href="loginpedagang.php">PEDAGANG</a>
+    <br>
+    <br>
+	<a href="loginpedagang.php" style="float: center;
+    color: white;
+    padding: 10px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgb(147, 8, 15);
+    text-decoration: none;
+    text-align: center;
+    margin: 5px; ">PEDAGANG</a>
 	</div>
-	<div>
-	<a href="index.php">PEMBELI</a>
-	</div>
-	<div>
-	<a href="loginkurir.php">KURIR</a>
-	</div>
-	</center>
+	   <div>
+       <br>
+       <br>
+	       <a href="index.php" style="float: center;
+    color: white;
+    width: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(147, 8, 15);
+    text-decoration: none;
+    text-align: center;
+    margin: 5px; ">PEMBELI</a>
+	   </div>
+	       <div>
+           <br>
+           <br>
+	           <a href="loginkurir.php" style="float: center;
+    color: white;
+    width: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(147, 8, 15);
+    text-decoration: none;
+    text-align: center;
+    margin: 5px; ">KURIR</a>
+	       </div>
+	       </center>
+    
     <div class="container">
 
         <hr>
