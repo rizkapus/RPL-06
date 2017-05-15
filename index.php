@@ -28,46 +28,9 @@
 </head>
 
 <body>
-    
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="background: url('header-supermarket-retail.jpg') no-repeat center center;" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.php" style="color: black; font-weight: bolder;">e-Pasar Tradisional</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#" style="color: black; font-weight: bolder; background-color: white; border-radius: 10px;">About</a>
-                    </li>
-                    <li>
-                        <a href="#" style="color: black; font-weight: bolder; ">Contact</a>
-                    </li> 
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-            <li>
-                <a href="loginutama.php" style="color: black; font-weight: bolder; border-radius: 5px;">Sign In</a>
-            </li>
-            <li>
-                <a href="registerr.php" style="color: black; font-weight: bolder;">Sign Up</a>
-            </li>
-        </ul>
-                     
-
-                                
-        </div>
-        
-
-        <!-- /.container -->
-    </nav>
+    <?php
+        include("header.html")
+    ?>
 
     <!-- Page Content -->
     <div class="container">
