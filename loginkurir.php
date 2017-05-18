@@ -29,7 +29,6 @@
 
 <body>
 
-<<<<<<< HEAD
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -71,13 +70,6 @@
     </nav>
 <center>
 	<form action="tugasPBW2.html" onsubmit="validate()">
-=======
-     <?php
-            Include("header.html");
-        ?>
-<center>
-	<form action="daftarpembelian.php" onsubmit="validate()">
->>>>>>> ee2320de4e05f8cceb2f19457a41adcd33a709b9
 		<h1>LOGIN SEBAGAI KURIR</h1><hr>
 		Email <br>
 		<input type="email" id="email" size="20"><br><br>

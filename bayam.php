@@ -88,32 +88,8 @@
                 </p>
             </div>
 
-<<<<<<< HEAD
-			<div class="col-sm-4 col-lg-4 col-md-4">
-				<h1>BAYAM</h1>
-				<div class="ratings">
-                    <p class="pull-right">6 reviews</p>
-                         <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                         </p>
-                </div>
-				
-				<div class="col-sm-4 col-lg-4 col-md-4">
-                    <img src="img\bayam1.jpg" width="300" alt="">
-                       
-             </div>
-
-			</div>
-			
-
-        </div>
-=======
 			<div>
-				<h3 class="pull-right">Rp. 5.000/ikat</h3>
+				<h3 class="pull-right">Rp. 600/ikat</h3>
 				<h1>BAYAM</h1>
 					<div class="ratings">
 						<p>
@@ -147,7 +123,6 @@
 			
 		</div>
 
->>>>>>> ee2320de4e05f8cceb2f19457a41adcd33a709b9
 		
 
     </div>
@@ -175,22 +150,16 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-<<<<<<< HEAD
-=======
 	
 	 <script>
 		function jumlah(){
-			var harga = document.getElementById("sel1").value*5000
+			var harga = document.getElementById("sel1").value*600
 			document.getElementById("harga").innerHTML=harga
 		}
 	 </script>
->>>>>>> ee2320de4e05f8cceb2f19457a41adcd33a709b9
 
 </body>
 
 </html>
-<<<<<<< HEAD
-=======
 
   
->>>>>>> ee2320de4e05f8cceb2f19457a41adcd33a709b9

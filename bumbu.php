@@ -28,64 +28,12 @@
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="background: url('header-supermarket-retail.jpg') no-repeat center center;" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.php" style="color: black; font-weight: bolder;">e-Pasar Tradisional</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#" style="color: black; font-weight: bolder;">About</a>
-                    </li>
-                    <li>
-                        <a href="#" style="color: black; font-weight: bolder;">Contact</a>
-                    </li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-            <li>
-                <a href="loginutama.php" style="color: black; font-weight: bolder;">Sign In</a>
-            </li>
-            <li>
-                <a href="registerr.php" style="color: black; font-weight: bolder;">Sign Up</a>
-            </li>
-        </ul>
-                     
-
-                                
-        </div>
-        
-        <!-- /.container -->
-    </nav>
-
-    <!-- Page Content -->
-<div class="container">
-
-        <div class="row">
-
-            <div class="col-md-3">
-                <img src="troli.png" width="100" height="70"  /> Keranjang Belanja
-
-                <p> <div class="list-group">
-                    <a href="sayur.php" class="list-group-item">Sayuran</a>
-                    <a href="#" class="list-group-item">Daging</a>
-                    <a href="#" class="list-group-item">Ayam</a>
-                    <a href="#" class="list-group-item">Ikan</a>
-                    <a href="#" class="list-group-item">Buah-buahan</a>
-                    <a href="bumbu.php" class="list-group-item">Bumbu</a>
-                </div>
-                </p>
-            </div>
+    <?php
+        include("header.html");
+        include("content.html")
+    ?>
+    
+   
 
             <div class="col-md-9">
 
@@ -267,15 +215,9 @@
 
         <hr>
 
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; e-Pasar Tradisional 2017</p>
-                </div>
-            </div>
-        </footer>
-
+        <?php
+            Include("footer.html");
+        ?>
     </div>
     <!-- /.container -->
 
