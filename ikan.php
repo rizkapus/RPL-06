@@ -10,7 +10,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+<<<<<<< HEAD:ikan.php
     <title>Ikan</title>
+=======
+    <title>e-Pasar Tradisional Homepage</title>
+>>>>>>> bc8c044ac9251f6b38fea6d139d00c75371a3c76:index.php
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,9 +32,14 @@
 </head>
 
 <body>
-
+<<<<<<< HEAD:index.php
+    <?php
+        include("header.html")
+    ?>
+=======
+    
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background: url('header-supermarket-retail.jpg') no-repeat center center;" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -40,24 +49,28 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">e-Pasar Tradisional</a>
+                <a class="navbar-brand" href="index.php" style="color: black; font-weight: bolder;">e-Pasar Tradisional</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#" style="color: black; font-weight: bolder; background-color: white; border-radius: 10px;">About</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
-                    </li>
+                        <a href="#" style="color: black; font-weight: bolder; ">Contact</a>
+                    </li> 
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
             <li>
+<<<<<<< HEAD:ikan.php
                 <a href="loginutama.php">Sign In</a>
+=======
+                <a href="loginutama.php" style="color: black; font-weight: bolder; border-radius: 5px;">Sign In</a>
+>>>>>>> bc8c044ac9251f6b38fea6d139d00c75371a3c76:index.php
             </li>
             <li>
-                <a href="#">Sign Up</a>
+                <a href="registerr.php" style="color: black; font-weight: bolder;">Sign Up</a>
             </li>
         </ul>
                      
@@ -67,6 +80,7 @@
         
         <!-- /.container -->
     </nav>
+>>>>>>> 37b70e643b5c77e169d1e8500580ee314b9a9905:ikan.php
 
     <!-- Page Content -->
 <div class="container">
@@ -82,7 +96,7 @@
                     <a href="#" class="list-group-item">Ayam</a>
                     <a href="ikan.php" class="list-group-item">Ikan</a>
                     <a href="#" class="list-group-item">Buah-buahan</a>
-                    <a href="#" class="list-group-item">Bumbu</a>
+                    <a href="bumbu.php" class="list-group-item">Bumbu</a>
                 </div>
                 </p>
             </div>
@@ -239,6 +253,7 @@
         </div>
 
     </div>
+	
     <!-- /.container -->
 
     <div class="container">
