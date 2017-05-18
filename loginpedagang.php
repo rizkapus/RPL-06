@@ -29,47 +29,11 @@
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">e-Pasar Tradisional</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-            <li>
-                <a href="loginutama.php">Sign In</a>
-            </li>
-            <li>
-                <a href="#">Sign Up</a>
-            </li>
-        </ul>
-                     
-
-                                
-        </div>
-        
-
-        <!-- /.container -->
-    </nav>
+     <?php
+            Include("header.html");
+        ?>
 <center>
-	<form action="tugasPBW2.html" onsubmit="validate()">
+	<form action="halamanpedagang.php" onsubmit="validate()">
 		<h1>LOGIN SEBAGAI PEDAGANG</h1><hr>
 		Email <br>
 		<input type="email" id="email" size="20"><br><br>
