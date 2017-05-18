@@ -10,7 +10,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+<<<<<<< HEAD:ikan.php
+    <title>Ikan</title>
+=======
     <title>e-Pasar Tradisional Homepage</title>
+>>>>>>> bc8c044ac9251f6b38fea6d139d00c75371a3c76:index.php
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,12 +32,58 @@
 </head>
 
 <body>
+<<<<<<< HEAD:index.php
     <?php
         include("header.html")
     ?>
+=======
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background: url('header-supermarket-retail.jpg') no-repeat center center;" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.php" style="color: black; font-weight: bolder;">e-Pasar Tradisional</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#" style="color: black; font-weight: bolder; background-color: white; border-radius: 10px;">About</a>
+                    </li>
+                    <li>
+                        <a href="#" style="color: black; font-weight: bolder; ">Contact</a>
+                    </li> 
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+            <li>
+<<<<<<< HEAD:ikan.php
+                <a href="loginutama.php">Sign In</a>
+=======
+                <a href="loginutama.php" style="color: black; font-weight: bolder; border-radius: 5px;">Sign In</a>
+>>>>>>> bc8c044ac9251f6b38fea6d139d00c75371a3c76:index.php
+            </li>
+            <li>
+                <a href="registerr.php" style="color: black; font-weight: bolder;">Sign Up</a>
+            </li>
+        </ul>
+                     
+
+                                
+        </div>
+        
+        <!-- /.container -->
+    </nav>
+>>>>>>> 37b70e643b5c77e169d1e8500580ee314b9a9905:ikan.php
 
     <!-- Page Content -->
-    <div class="container">
+<div class="container">
 
         <div class="row">
 
@@ -44,7 +94,7 @@
                     <a href="sayur.php" class="list-group-item">Sayuran</a>
                     <a href="#" class="list-group-item">Daging</a>
                     <a href="#" class="list-group-item">Ayam</a>
-                    <a href="#" class="list-group-item">Ikan</a>
+                    <a href="ikan.php" class="list-group-item">Ikan</a>
                     <a href="#" class="list-group-item">Buah-buahan</a>
                     <a href="bumbu.php" class="list-group-item">Bumbu</a>
                 </div>
@@ -64,13 +114,13 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                    <img class="slide-image" src="img\ikan1.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                    <img class="slide-image" src="img\ikan2.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                    <img class="slide-image" src="img\ikan3.jpg" alt="">
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
@@ -88,15 +138,15 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="img\ikanbandeng.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$24.99</h4>
-                                <h4><a href="#">First Product</a>
+                                <h4><a href="#">ikan bandeng</a>
                                 </h4>
                                 <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
                             </div>
                             <div class="ratings">
-                                <p class="pull-right">15 reviews</p>
+                                <p class="pull-right">10 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
@@ -110,15 +160,15 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="img\ikangurame.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$64.99</h4>
-                                <h4><a href="#">Second Product</a>
+                                <h4><a href="#">ikan gurame</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                             <div class="ratings">
-                                <p class="pull-right">12 reviews</p>
+                                <p class="pull-right">19 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
@@ -132,15 +182,15 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="img\ikanlele.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$74.99</h4>
-                                <h4><a href="#">Third Product</a>
+                                <h4><a href="#">ikan lele</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                             <div class="ratings">
-                                <p class="pull-right">31 reviews</p>
+                                <p class="pull-right">45 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
@@ -154,15 +204,15 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="img\ikannila.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$84.99</h4>
-                                <h4><a href="#">Fourth Product</a>
+                                <h4><a href="#">ikan nila</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                             <div class="ratings">
-                                <p class="pull-right">6 reviews</p>
+                                <p class="pull-right">11 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
@@ -176,15 +226,15 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="img\ikantongkol.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$94.99</h4>
-                                <h4><a href="#">Fifth Product</a>
+                                <h4><a href="bayam.php">ikan tongkol</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                             <div class="ratings">
-                                <p class="pull-right">18 reviews</p>
+                                <p class="pull-right">50 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
@@ -194,13 +244,6 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <h4><a href="#">Like this template?</a>
-                        </h4>
-                        <p>If you like this template, then check out <a target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this tutorial</a> on how to build a working review system for your online store!</p>
-                        <a class="btn btn-primary" target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">View Tutorial</a>
                     </div>
 
                 </div>
