@@ -9,7 +9,14 @@
          </head>
 
 <body>
+     <style>
+	    body{
+	    background-image: url("gbr5.jpg");
+		background-size:100%;
+		}
+		</style>
      <div align="center">
+	    <div class ="table">
         <form id="form1" name="form1" method="post" action="proses.php">
           <p>&nbsp;</p>
             <table width="383" height="201" border="1">

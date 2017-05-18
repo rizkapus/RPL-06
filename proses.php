@@ -1,11 +1,19 @@
 <html>
     <head>
+	   <div class="tabel">
        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <title>Proses Perhitungan</title>
              <style type="text/css"> </style>
     </head>
 
 <body>
+  
+  <style>
+	    body{
+	    background-image: url("gbr6.jpg");
+		background-size:100%;
+		}
+  </style>
 
 <?php 
        $nama_barang = $_POST['nama_barang'];
