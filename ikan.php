@@ -10,11 +10,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-<<<<<<< HEAD:ikan.php
+
     <title>Ikan</title>
-=======
+
     <title>e-Pasar Tradisional Homepage</title>
->>>>>>> bc8c044ac9251f6b38fea6d139d00c75371a3c76:index.php
+
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
