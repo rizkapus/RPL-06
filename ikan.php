@@ -10,11 +10,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-<<<<<<< HEAD:ikan.php
+
     <title>Ikan</title>
-=======
+
     <title>e-Pasar Tradisional Homepage</title>
->>>>>>> bc8c044ac9251f6b38fea6d139d00c75371a3c76:index.php
+
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -58,11 +58,10 @@
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
             <li>
-<<<<<<< HEAD:ikan.php
                 <a href="loginutama.php">Sign In</a>
-=======
+
                 <a href="loginutama.php" style="color: black; font-weight: bolder; border-radius: 5px;">Sign In</a>
->>>>>>> bc8c044ac9251f6b38fea6d139d00c75371a3c76:index.php
+
             </li>
             <li>
                 <a href="registerr.php" style="color: black; font-weight: bolder;">Sign Up</a>
