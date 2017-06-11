@@ -1,6 +1,4 @@
-<?php
-	session_start();
-	?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -71,7 +69,7 @@
                                     <img class="slide-image" src="img\slide1.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="img\slide2.jpg" alt="">
+                                    <img class="slide-image" src=	"img\slide2.jpg" alt="">
                                 </div>
                                 <div class="item">
                                     <img class="slide-image" src="img\slide3.jpg" alt="">
@@ -87,17 +85,29 @@
                     </div>
 
                 </div>
+					
+                  <script type="text/javascript">
 
+                    		function Login() {
+                              document.getElementById("login").value="";
+                              alert("Kamu harus login dulu kalau mau belanja!!");
+                          }
+
+
+
+                  </script>
+				  
+                
+				
                 <div class="row">
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
                             <img src="img\sayuran1.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="sayur.php">Sayuran</a>
+                                <h4><a href=# id="login"  onclick="Login()" >Sayuran</a>
                                 </h4>
                                 <p>Ayo coba sayur dari disini tanpa pestisida!.</p>
-                            </div>
                             <div class="ratings">
                                 <p class="pull-right">15 reviews</p>
                                 <p>
@@ -113,9 +123,9 @@
 						<div class="thumbnail">
                             <img src="img\bumbu1.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="bumbu.php">Bumbu Dapur</a>
+                                <h4><a href=# id="login" onclick="Login()" >Bumbu Dapur</a>
                                 </h4>
-                              <p>Bumbu-bumbuan membuat masakan jadi lebih lezat!.</p>
+                                <p>Bumbu-bumbuan membuat masakan jadi lebih lezat!.</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">18 reviews</p>
@@ -135,9 +145,9 @@
                         <div class="thumbnail">
                             <img src="img\buah1.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="buah.php">Buah-buahan</a>
+                                <h4><a href=# id="login" onclick="Login()" >Buah-buahan</a>
                                 </h4>
-                                <p>Buah-buahan banyak mengandung vitamin dan baik untuk kesehatan.</p>
+                               <p>Buah-buahan banyak mengandung vitamin dan baik untuk kesehatan.</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">12 reviews</p>
@@ -154,9 +164,9 @@
 						<div class="thumbnail">
                             <img src="img\ikan11.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="ikan.php">Ikan</a>
+                                <h4><a href=# id="login" onclick="Login()" >Ikan</a>
                                 </h4>
-                                <p>Ikan yang kaya akan protein yang tinggi.</p>
+                                 <p>Ikan yang kaya akan protein yang tinggi.</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">12 reviews</p>
@@ -176,9 +186,9 @@
                         <div class="thumbnail">
                             <img src="img\daging1.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="daging.php">Daging</a>
+                                <h4><a href=# id="login"  onclick="Login()" >Daging</a>
                                 </h4>
-                                <p>Daging disini diolah dengan cara yang berkualitas.</p>
+                               <p>Daging disini diolah dengan cara yang berkualitas.</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">31 reviews</p>
@@ -195,9 +205,9 @@
 						<div class="thumbnail">
                             <img src="img\ayam1.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="ayam.php">Ayam</a>
+                                <h4><a href=# id="login" onclick="Login()" >Ayam</a>
                                 </h4>
-                                <p>Ayam disini diolah dengan cara yang berkualitas.</p>
+                                 <p>Ayam disini diolah dengan cara yang berkualitas.</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">31 reviews</p>
