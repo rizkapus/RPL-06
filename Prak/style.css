@@ -1,0 +1,47 @@
+body{
+	background: white;
+	color: black;
+	position:absolute;
+	left:10px;
+	top:20px;
+}
+
+h1{
+    color: black;
+    text-align: center;
+	font-family: High tower text;
+	font-size: 40px;
+	font-weight: normal;
+}
+div.gallery {
+    border: 2px solid #ccc;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 50%;
+}
+
+div.desc{
+    padding: 20px;
+    text-align: center;
+	font-size: 15px;
+	font-family: High tower text;
+	height:20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+.putih {
+    color: #FFF;
+}
+
+
