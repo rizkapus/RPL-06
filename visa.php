@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Login Kurir</title>
+    <title>Shop Homepage - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 
 <body>
@@ -68,17 +68,75 @@
 
         <!-- /.container -->
     </nav>
-<center>
-	<form action="tugasPBW2.html" onsubmit="validate()">
-		<h1>LOGIN SEBAGAI KURIR</h1><hr>
-		Email <br>
-		<input type="email" id="email" size="20"><br><br>
-		Password <br>
-		<input type="password" id="password" size="20"><br><br>
-		<input type="Submit" value="Login">
-	</form>
-</center>
 
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <img src="troli.png" width="100" height="70"  /> Keranjang Belanja
+                <p> <div class="list-group">
+                	<p>Metode Pembayaran</p>
+                    <a href="pembayaran.php" class="list-group-item">COD</a>
+                    <a href="bank.php" class="list-group-item">BANK</a>
+                    <a href="visa.php" class="list-group-item">VISA</a>                    
+                </div>
+                </p>
+             </div>
+                <div class="container">
+
+			<!-- start: Table -->
+                 <div class="table-responsive">
+                 <div class="title"><h3>Form Checkout</h3></div>
+                 <div class="hero-unit">Harap isi form dibawah ini dengan lengkap dan benar sesuai idenditas anda!</div>
+                
+				    <form role="formku" id="formku" method="post" action="index.php">
+				    <table class="table table-hover">
+                    <tr>
+                        <td><label for="nama">Email Address</label></td>
+                        <td><input name="nama" type="email" class="required" minlength="6" id="email" size="30" /></td>
+                      </tr>
+				    <tr>
+				        <td><label for="nama">Nama</label></td>
+				        <td><input name="nama" type="text" class="required" minlength="6" id="nama" size="30" /></td>
+				      </tr>
+				      <tr>
+				        <td><label for="alamat">Card Number</label></td>
+				        <td><input name="alamat" type="text" class="required" minlength="6" id="card" size="30"/></td>
+				      </tr>
+                      <tr>
+                        <td><label for="alamat">Expiration</label></td>
+                        <td><input name="alamat" type="text" class="required" minlength="6" id="exp" size="30"/></td>
+                      </tr>				      
+				      <tr>
+				      <td></td>
+				        <td><input type="submit" value="Lanjutkan" id="submit" name="submit"  class="btn btn-sm btn-success"/>&nbsp;</td>
+				        </tr>
+				        <script type="text/javascript">
+					    	document.getElementById("submit").onclick = function () {
+					        alert("Transaski Berhasil");
+    					};
+						</script>
+				    </table>
+    			</form>
+                   </div>
+				
+			<!-- end: Table -->
+
+		</div>
+		<!-- end: Container -->
+                
+            </div>
+
+            
+
+
+        </div>
+
+    </div>
+	
+    <!-- /.container -->
 
     <div class="container">
 
@@ -105,5 +163,3 @@
 </body>
 
 </html>
-
-

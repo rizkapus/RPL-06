@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bayam</title>
+    <title>Shop Homepage - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 
 <body>
@@ -76,44 +76,76 @@
 
             <div class="col-md-3">
                 <img src="troli.png" width="100" height="70"  /> Keranjang Belanja
-
                 <p> <div class="list-group">
-                    <a href="sayur.php" class="list-group-item">Sayuran</a>
-                    <a href="#" class="list-group-item">Daging</a>
-                    <a href="#" class="list-group-item">Ayam</a>
-                    <a href="#" class="list-group-item">Ikan</a>
-                    <a href="#" class="list-group-item">Buah-buahan</a>
-                    <a href="#" class="list-group-item">Bumbu</a>
+                    <p>Metode Pembayaran</p>
+                    <a href="pembayaran.php" class="list-group-item">COD</a>
+                    <a href="bank.php" class="list-group-item">BANK</a>
+                    <a href="visa.php" class="list-group-item">VISA</a>                    
                 </div>
                 </p>
-            </div>
-
-			<div class="col-sm-4 col-lg-4 col-md-4">
-				<h1>BAYAM</h1>
-				<div class="ratings">
-                    <p class="pull-right">6 reviews</p>
-                         <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                         </p>
-                </div>
-				
-				<div class="col-sm-4 col-lg-4 col-md-4">
-                    <img src="img\bayam1.jpg" width="300" alt="">
-                       
              </div>
+                <div class="container">
 
-			</div>
-			
+            <!-- start: Table -->
+                 <div class="table-responsive">
+                 <div class="title"><h3>Form Checkout</h3></div>
+                 <div class="hero-unit">Harap isi form dibawah ini dengan lengkap dan benar sesuai idenditas anda!</div>
+                
+                    <form role="formku" id="formku" method="post" action="index.php">
+                    <table class="table table-hover">
+                    <tr>
+                        <td><label for="nama">Nama</label></td>
+                        <td><input name="nama" type="text" class="required" minlength="6" id="nama" size="30" /></td>
+                      </tr>
+                      <tr>
+                        <td><label for="alamat">Alamat</label></td>
+                        <td><input name="alamat" type="text" class="required" minlength="6" id="alamat" size="30"/></td>
+                      </tr>
+                      <tr>
+                        <td><label for="no_telp">No Telepon</label></td>
+                        <td><input name="no_telp" type="text" class="required" minlength="6" id="no_telp" size="30" /></td>
+                      </tr>
+                      <tr>
+                        <td><label for="bank">Pilih Bank</label></td>  
+                        <td>
+                            <select id="sel_tahun" minlength="6" >
+                                <option value="0">- Select -</option>
+                                <option value="1">BCA</option>
+                                <option value="2">MANDIRI                  </option>
+                                <option value="3">BNI</option>
+                                <option value="4">BRI</option>
+                                <option value="5">BTN</option>
+                                <option value="6">MANDIRI SYARIAH</option>
+                            </select>
+                        </td>
+                      </tr>
+                      <tr>
+                      <td></td>
+                        <td><input type="submit" value="Lanjutkan" id="submit" name="submit"  class="btn btn-sm btn-success"/>&nbsp;</td>
+                        </tr>
+                        <script type="text/javascript">
+                            document.getElementById("submit").onclick = function () {
+                            alert("Transaksi Berhasil");
+                        };
+                        </script>
+                    </table>
+                </form>
+                   </div>
+                
+            <!-- end: Table -->
 
         </div>
-		
+        <!-- end: Container -->
+                
+            </div>
+
+            
+
+
+        </div>
 
     </div>
-	
+    
     <!-- /.container -->
 
     <div class="container">
