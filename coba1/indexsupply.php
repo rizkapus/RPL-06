@@ -11,7 +11,7 @@
 <body>
      <style>
 	    body{
-	    background-image: url("gbr5.jpg");
+	    background="white";
 		background-size:100%;
 		}
 		</style>

@@ -49,7 +49,7 @@
          $ongkos = 30000;
       }
       //menghitung total keseluruhan
-       $total = $subtotal - $diskon + $ongkos;
+       $total = ($subtotal - $diskon) + $ongkos;
 ?>
 
 <div align="center">
