@@ -70,6 +70,11 @@
     </nav>
 <center>
 	<form action="tugasPBW2.html" onsubmit="validate()">
+     <?php
+            Include("header.html");
+        ?>
+<center>
+	<form action="daftarpembelian.php" onsubmit="validate()">
 		<h1>LOGIN SEBAGAI KURIR</h1><hr>
 		Email <br>
 		<input type="email" id="email" size="20"><br><br>

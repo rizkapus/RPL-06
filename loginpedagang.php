@@ -29,6 +29,7 @@
 
 <body>
 
+<<<<<<< HEAD
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -70,6 +71,12 @@
     </nav>
 <center>
 	<form action="tugasPBW2.html" onsubmit="validate()">
+=======
+     <?php
+            Include("header.html");
+        ?>
+<center>
+	<form action="halamanpedagang.php" onsubmit="validate()">
 		<h1>LOGIN SEBAGAI PEDAGANG</h1><hr>
 		Email <br>
 		<input type="email" id="email" size="20"><br><br>

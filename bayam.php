@@ -88,6 +88,7 @@
                 </p>
             </div>
 
+
 			<div class="col-sm-4 col-lg-4 col-md-4">
 				<h1>BAYAM</h1>
 				<div class="ratings">
@@ -110,6 +111,43 @@
 			
 
         </div>
+
+			<div>
+				<h3 class="pull-right">Rp. 5.000/ikat</h3>
+				<h1>BAYAM</h1>
+					<div class="ratings">
+						<p>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star-empty"></span>
+										<span class="glyphicon glyphicon-star-empty"></span>
+						</p>
+						<p>6 reviews</p>
+					</div>
+				
+						<div class="col-md-4">
+							<img src="img\bayamm.jpg" width="300" alt="">
+						</div>	
+						
+						<div class="col-sm-4 col-lg-4 col-md-4">
+							<div class="form-group">
+								<label >Tentukan jumlah yang ingin dibeli:</label>
+								<select class="form-control" width="50" id="sel1" onclick="jumlah()">
+									<option value="1">1 ikat</option>
+									<option value="2">2 ikat</option>
+									<option value="3">3 ikat</option>
+									<option value="4">4 ikat</option>
+								</select>
+								<h5>Harga yang harus di bayar: Rp. <span id="harga"></span><h5>
+							</div>
+							<a href="pembayaran.php" class="btn btn-info" role="button">Bayar</a>
+						</div>
+			</div>
+			
+		</div>
+
+
 		
 
     </div>
@@ -137,6 +175,13 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+	
+	 <script>
+		function jumlah(){
+			var harga = document.getElementById("sel1").value*5000
+			document.getElementById("harga").innerHTML=harga
+		}
+	 </script>
 
 </body>
 

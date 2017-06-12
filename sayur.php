@@ -29,6 +29,7 @@
 
 <body>
 
+
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" style="background: url('header-supermarket-retail.jpg') no-repeat center center;" role="navigation">
         <div class="container">
@@ -67,6 +68,9 @@
         
         <!-- /.container -->
     </nav>
+    <?php
+        include("header.html");
+    ?>
 
     <!-- Page Content -->
 <div class="container">
@@ -82,6 +86,10 @@
                     <a href="#" class="list-group-item">Ayam</a>
                     <a href="#" class="list-group-item">Ikan</a>
                     <a href="#" class="list-group-item">Buah-buahan</a>
+                    <a href="daging.php" class="list-group-item">Daging</a>
+                    <a href="ayam.php" class="list-group-item">Ayam</a>
+                    <a href="ikan.php" class="list-group-item">Ikan</a>
+                    <a href="buah.php" class="list-group-item">Buah-buahan</a>
                     <a href="bumbu.php" class="list-group-item">Bumbu</a>
                 </div>
                 </p>
@@ -128,6 +136,50 @@
                             <div class="caption">
                                 <h4 class="pull-right">Rp.1.000,00/buah</h4>
                                 <h4><a href="#">Wortel</a>
+                            <img src="img\bayam1.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.6.00/ikat</h4>
+                                <h4><a href="bayam.php">Bayam</a>
+                                </h4>
+                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+						
+						 <div class="thumbnail">
+                            <img src="img\brokoli1.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.5.000/buah</h4>
+                                <h4><a href="#">Brokoli</a>
+                                </h4>
+                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+						
+						 <div class="thumbnail">
+                            <img src="img\kol1.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.5.000/buah</h4>
+                                <h4><a href="#">Kol</a>
                                 </h4>
                                 <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
                             </div>
@@ -149,12 +201,53 @@
                             <img src="img\tomat1.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">Rp.1.000,00/buah</h4>
+                                <h4 class="pull-right">Rp.1.000/buah</h4>
                                 <h4><a href="#">Tomat</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">12 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+						
+						<div class="thumbnail">
+                            <img src="img\cabemerah1.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.1.000/ons</h4>
+                                <h4><a href="#">Cabai Merah</a>
+                                </h4>
+                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">12 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+						
+						<div class="thumbnail">
+                            <img src="img\wortel1.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.1000/buah</h4>
+                                <h4><a href="#">Wortel</a>
+                                </h4>
+                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">18 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
@@ -171,6 +264,7 @@
                             <img src="img\kangkung1.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">Rp.500,00/ikat</h4>
+                                <h4 class="pull-right">Rp.500/ikat</h4>
                                 <h4><a href="#">Kangkung</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -193,6 +287,7 @@
                             <img src="img\sawi1.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">Rp.700,00/ikat</h4>
+                                <h4 class="pull-right">Rp.700/ikat</h4>
                                 <h4><a href="#">Sawi</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -216,16 +311,24 @@
                             <div class="caption">
                                 <h4 class="pull-right">Rp.600,00/ikat</h4>
                                 <h4><a href="bayam.php">Bayam</a>
+						
+						<div class="thumbnail">
+                            <img src="img\bawangmerah1.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.10.000/ons</h4>
+                                <h4><a href="#">Bawang Merah</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">18 reviews</p>
+                                <p class="pull-right">6 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </p>
                             </div>
@@ -253,6 +356,9 @@
                 </div>
             </div>
         </footer>
+        <?php
+            Include("footer.html");
+        ?>
 
     </div>
     <!-- /.container -->

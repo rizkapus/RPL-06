@@ -26,6 +26,7 @@
     <![endif]-->
 
 </head>
+<<<<<<< HEAD
 <style>
         body{
         background-image: url("login.jpg");
@@ -35,6 +36,8 @@
 
 <body>
 
+
+<body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -48,6 +51,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.php" style="color: white; font-weight: bolder;">e-Pasar Tradisional</a>
+                <a class="navbar-brand" href="#">e-Pasar Tradisional</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -68,6 +72,23 @@
             </li>
         </ul>
                                                 
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="loginutama.php">Sign In</a>
+            </li>
+            <li>
+                <a href="#">Sign Up</a>
+            </li>
+        </ul>
+                     
+
+                                
         </div>
         
 
@@ -116,6 +137,15 @@
 	       </div>
 	       </center>
     
+	<a href="loginpedagang.php">PEDAGANG</a>
+	</div>
+	<div>
+	<a href="index.php">PEMBELI</a>
+	</div>
+	<div>
+	<a href="loginkurir.php">KURIR</a>
+	</div>
+	</center>
     <div class="container">
 
         <hr>
