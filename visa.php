@@ -83,6 +83,7 @@
                     <a href="visa.php" class="list-group-item">VISA</a>                    
                 </div>
                 </p>
+<<<<<<< HEAD:visa.php
              </div>
                 <div class="container">
 
@@ -121,6 +122,47 @@
 				    </table>
     			</form>
                    </div>
+=======
+            </div>
+
+
+			<div class="col-sm-4 col-lg-4 col-md-4">
+				<h1>BAYAM</h1>
+				<div class="ratings">
+                    <p class="pull-right">6 reviews</p>
+                         <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                         </p>
+                </div>
+				
+				<div class="col-sm-4 col-lg-4 col-md-4">
+                    <img src="img\bayam1.jpg" width="300" alt="">
+                       
+             </div>
+
+			</div>
+			
+
+        </div>
+
+			<div>
+				<h3 class="pull-right">Rp. 5.000/ikat</h3>
+				<h1>BAYAM</h1>
+					<div class="ratings">
+						<p>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star-empty"></span>
+										<span class="glyphicon glyphicon-star-empty"></span>
+						</p>
+						<p>6 reviews</p>
+					</div>
+>>>>>>> 6e38582d23c4c67b6b17fd9c32be11a70ca0a72b:bayam.php
 				
 			<!-- end: Table -->
 
@@ -129,10 +171,15 @@
                 
             </div>
 
+<<<<<<< HEAD:visa.php
             
 
 
         </div>
+=======
+
+		
+>>>>>>> 6e38582d23c4c67b6b17fd9c32be11a70ca0a72b:bayam.php
 
     </div>
 	
